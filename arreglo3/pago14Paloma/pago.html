@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/pago.js"></script>
+</head>
+<body>
+    <script>
+            let valorDia = 160000
+            let dias = 23
+            let salarioPersona= salario(dias,valorDia)
+            let totalPagarPersona = pagoTotal(dias,valorDia)
+            let subTransPersona = subTrans(dias, valorDia)
+            console.log("el salario de la persona es" +salarioPersona)
+            console.log("el salario de la persona es" +totalPagarPersona)
+            console.log("el salario de la persona es" +subTransPersona)
+    </script>
+</body>
+</html>
